@@ -187,8 +187,20 @@ input {
   height: 130px;
 }
 
+.plays__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .plays__item {
-  max-width: 300px;
+  max-width: 320px;
+  height: 700px;
   margin: 0 40px 0;
 }
 
@@ -196,11 +208,13 @@ input {
   color: white;
 }
 
-.plays__img {
-  width: 320px;
-  height: 450px;
+.plays .img {
+  width: 280px;
+  height: 400px;
   -o-object-fit: cover;
   object-fit: cover;
+  -webkit-box-shadow: 10px 6px 8px 4px #050505;
+          box-shadow: 10px 6px 8px 4px #050505;
 }
 
 .plays__date {

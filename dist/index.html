@@ -59,27 +59,32 @@
         <!-- PLAYS ITEMS -->
         <div class="plays">
             <h2 class="plays__subtitle">Featured Shows</h2>
-            <ul class="plays__slider slider" id="plays">
-                <li class="plays__item">
-                    <a class="plays__link" href="item.html">
-                        <img src="images/item1.jpg" alt="img" class="plays__img">
-                        <div class="plays__date">
-                            <div class="num">3</div>
-                           <div class="date">
-                               December<br>
-                               Sunday<br>
-                               2021
-                           </div>
-                        </div>
-                        <h2 class="plays__title">The Care and Feeding of Baby Birds</h2>
-                        <div class="plays__description">
-                            <div>Story: Ann Wuehler</div>
-                            <div>Director: Nick Fox<div>   
-                        </div>
-                    </a>
-                </li>
-
-                <li class="plays__item">
+            <div class="site-width">
+            <ul class="plays__slider" id="plays">
+                    <template id="template">
+                        <li class="plays__item">
+                            <a class="plays__link" href="item.html">
+                                <img src="images/item1.jpg" alt="img" class="img" id="play-image">
+                                <div class="plays__date">
+                                    <div class="num" id="play-num">3</div>
+                                   <div class="date">
+                                       <div class="play-month">December</div>
+                                       <div class="play-day">Sunday</div>
+                                       <div class="play-year">2021</div> 
+                                   </div>
+                                </div>
+                                <h2 class="plays__title" id="play-title">The Care and Feeding of Baby Birds</h2>
+                                <div class="plays__description">
+                                    <div>Story: <span class="play-story">Ann Wuehler</span></div>
+                                    <div class="play-director">Director:<span>Nick Fox</span><div>   
+                                </div>
+                            </a>
+                        </li>
+                    </template>
+                
+                </ul>
+            </div>
+                <!-- <li class="plays__item">
                     <a class="plays__link" href="item.html">
                         <img src="images/item3.jpg" alt="img" class="plays__img">
                         <div class="plays__date">
@@ -97,68 +102,11 @@
                         </div>
                     </a>
                 </li>
-                <li class="plays__item">
-                    <a class="plays__link" href="item.html">
-                        <img src="images/event_7.jpg" alt="img" class="plays__img">
-                        <div class="plays__date">
-                            <div class="num">8</div>
-                           <div class="date">
-                               June<br>
-                               Monday<br>
-                               2021
-                           </div>
-                        </div>
-                        <h2 class="plays__title">Casanova Against Don Juan - A Comedy</h2>
-                        <div class="plays__description">
-                            <div>Story: Miodrag Ilic</div>
-                            <div>Director: Peter Olivier<div>   
-                        </div>
-                    </a>
-                </li>
-                <li class="plays__item">
-                    <a class="plays__link" href="item.html">
-                        <img src="images/banner3.jpg" alt="img" class="plays__img">
-                        <div class="plays__date">
-                            <div class="num">23</div>
-                           <div class="date">
-                               May<br>
-                               Sunday<br>
-                               2021
-                           </div>
-                        </div>
-                        <h2 class="plays__title">The Care and Feeding of Baby Birds</h2>
-                        <div class="plays__description">
-                            <div>Story: Ann Wuehler</div>
-                            <div>Director: Nick Fox<div>   
-                        </div>
-                    </a>
-                </li>
-                <li class="plays__item">
-                    <a class="plays__link" href="item.html">
-                        <img src="images/event_7.jpg" alt="img" class="plays__img">
-                        <div class="plays__date">
-                            <div class="num">3</div>
-                           <div class="date">
-                               November<br>
-                               Sunday<br>
-                               2021
-                           </div>
-                        </div>
-                        <h2 class="plays__title">The Care and Feeding of Baby Birds</h2>
-                        <div class="plays__description">
-                            <div>Story: Ann Wuehler</div>
-                            <div>Director: Nick Fox<div>   
-                        </div>
-                    </a>
-                </li>
-               
-            </ul>
+           
         </div>
-            
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
-        <script src="scripts/slick.min.js"></script>
+         -->
         <script src="scripts/script.js" async defer></script>
        
-        <!-- <script src="scripts/script.min.js" async defer></script> -->
+      <script src="scripts/script.min.js" async defer></script> 
     </body>
 </html>
